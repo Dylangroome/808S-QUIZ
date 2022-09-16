@@ -1,3 +1,39 @@
 html {
     background-color: #cddae0;
 }
+
+body {
+    min-height: 100vh;
+    display: flex;
+}
+
+.sidebar {
+    min-width: 300px;
+    background-color: rgb(255, 176, 176);
+    display: flex;
+    
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+}
+
+.inner-text {
+    font-weight: 700;
+    font-size: 24px;
+    margin: auto;
+}
+
+
+
+/* LARGE DEVICES 992px */
+@media only screen and (max-width: 992px) {
+    body {
+        flex-direction: column-reverse;
+    }
+
+    .sidebar {
+        height: 150px;
+    }
+}

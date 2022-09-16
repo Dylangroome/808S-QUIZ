@@ -4,6 +4,16 @@ html {
 
 body {
     min-height: 100vh;
+    
+}
+
+.main-container {
+    display: flex;
+    min-height: calc(100vh - 100px);
+}
+
+header {
+    height: 100px;
     display: flex;
 }
 
@@ -29,7 +39,7 @@ body {
 
 /* LARGE DEVICES 992px */
 @media only screen and (max-width: 992px) {
-    body {
+    .main-container {
         flex-direction: column-reverse;
     }
 

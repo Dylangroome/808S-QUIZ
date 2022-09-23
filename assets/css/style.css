@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
 html {
     background-color: #cddae0;
 }
@@ -5,6 +7,14 @@ html {
 body {
     min-height: 100vh;
     
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Nova Square', cursive;
 }
 
 .main-container {
@@ -36,6 +46,27 @@ header {
 }
 
 
+h1 {
+    color: #fff;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    text-align: center;
+    margin-bottom: 1rem;
+}
 
 /* LARGE DEVICES 992px */
 @media only screen and (max-width: 992px) {

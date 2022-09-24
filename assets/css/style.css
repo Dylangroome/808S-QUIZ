@@ -34,9 +34,23 @@ header {
     
 }
 
+.sidebar-2 {
+    min-width: 300px;
+    background-color: #cddae0;
+
+    display: flex;
+    
+}
+
 .content {
     flex-grow: 1;
     display: flex;
+}
+
+.content-2 {
+    flex-grow: 1;
+    display: flex;
+    background-color:  rgb(255, 176, 176);
 }
 
 .inner-text {

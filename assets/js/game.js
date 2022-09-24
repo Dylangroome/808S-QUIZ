@@ -57,7 +57,7 @@ startGame = () => {
 
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
-        localStorage.setItem('MostRecentScore', score)
+        localStorage.setItem('mostRecentScore', score)
 
         return window.localStorage.assign('/end.html')
     }
@@ -84,7 +84,7 @@ choices.forEach(choice => {
     choice.addEventListener('click' , e => {
         if(!acceptingAnswers) return
 
-        acceptingAnswers - false
+        acceptingAnswers = false
         const selectedChoice = e.target
         const selectedAnswer = selectedChoice.dataset['number']
 
@@ -108,4 +108,4 @@ incrementScore = num => {
     scoreText.innerText = score
 }
 
-startGame()
+startGame( )

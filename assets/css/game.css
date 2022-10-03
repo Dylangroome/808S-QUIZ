@@ -64,6 +64,29 @@
     width: 0%;
 }
 
+/* Music Controller */
+.circle{
+    height: 36px;
+    width: 36px;
+    border: 1px solid deeppink;
+    background: goldenrod;
+    color: deeppink;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin: 12px auto 0;
+ }
+ .circle i{
+    font-size: 25px;
+    margin: 4px 2px;
+ 
+ }
+ /* helper class to hide elements with javascript */
+ .hide{
+     display: none;
+ }
+ 
+
 @media screen and (max-width: 768px) {
     .choice-container {
         min-width: 10rem;

@@ -31,6 +31,17 @@
     <p>Some text in the Modal..</p>
   </div>
 
+  <!-- music controls -->
+  <div class="container volume-controller">
+    <a class="circle" onClick="musicControl();" id="music-on">
+        <i class="fas fa-volume-mute" aria-label="Turn on background music"></i>
+    </a>
+    <a class="circle hide" onClick="musicControl();" id="music-off">
+        <i class="fas fa-volume-up" aria-label="Turn off background music"></i>
+    </a>
+</div>
+
+
 </div>
                     <h1>Are You Ready</h1>
                     <a href="/game.html" class="btn">Play</a>
@@ -48,6 +59,7 @@
         </main>
     </div>
     
+    <audio id="bgMusic" src="assets/audio/bg-music.wav"></audio>
     <script src="assets/js/game.js"></script>
     <script src="assets/js/script.js"></script>
 </body>

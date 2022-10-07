@@ -10,6 +10,11 @@ let score = 0
 let questionCounter = 0
 let availableQuestions = []
 
+
+/**
+  * create varibles for questions and answers
+  */
+
 let questions = [
     {
         question: 'What is 2+2?',
@@ -45,6 +50,12 @@ let questions = [
     }
 ]
 
+
+/**
+  * score points for right answer = 100 and max questions = 4
+  */
+
+
 const SCORE_POINTS = 100
 const MAX_QUESTIONS = 4
 
@@ -55,12 +66,20 @@ startGame = () => {
     getNewQuestion()
 }
 
+/**
+  * return to end html page when all qustions have been presented
+  */
+
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
         return window.location.assign('/end.html')
     }
+
+/**
+  * add 100 score
+  */
 
     questionCounter++
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`

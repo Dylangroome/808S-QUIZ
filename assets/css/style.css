@@ -82,7 +82,7 @@ h1 {
     margin-bottom: 1rem;
     text-decoration: none;
     color: rgb(28, 26, 26);
-    background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
+    background: linear-gradient(90deg, rgb(172, 198, 255) 0%, rgb(0, 102, 255) 100%);
     border-radius: 4px;
 }
 
@@ -109,6 +109,13 @@ h1 {
 }
 #myBtn {
     background-color: rgba(88, 50, 255, 0.4);
+}
+
+#saveScoreBtn {
+    display: flex;
+    width: 100%;
+    font-size: large;
+    height: 3rem;
 }
 
 /* The Modal (background) */

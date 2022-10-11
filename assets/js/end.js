@@ -1,3 +1,9 @@
+/**
+  * create const varibles
+  *  use queryselector to target class and id
+  * 
+  */
+
 const username = document.querySelector('#username')
 const saveScoreBtn = document.querySelector('#saveScoreBtn')
 const finalScore = document.querySelector('#finalScore')

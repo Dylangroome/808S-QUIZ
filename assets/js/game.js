@@ -1,8 +1,23 @@
+/**
+  * create const varibles
+  * questions use queryselector to target class and id
+  * choices is wraperd in a array and targets class choice-text use aueryselectorall to target all elements
+  */
+
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
+
+/**
+  * create varibles
+  * currentquestions = to a empty objet
+  * acceptingAnswers varible = to true
+  * score = 0
+  * questioncounter = 0
+  * availableQuestions = to empty array
+  */
 
 let currentQuestion = {}
 let acceptingAnswers = true
@@ -12,7 +27,8 @@ let availableQuestions = []
 
 
 /**
-  * create varibles for questions and answers
+  * create varibles for questions that = to a array 
+  * in the array create 4 objects to store question, multiple option choice and answer
   */
 
 let questions = [
@@ -53,11 +69,21 @@ let questions = [
 
 /**
   * score points for right answer = 100 and max questions = 4
+  * capitalise const varible to keep fixed
   */
 
 
 const SCORE_POINTS = 100
 const MAX_QUESTIONS = 4
+
+/**
+  * create function startgame
+  * questionCounter = 0
+    score = 0
+  * call availableQuestions and use spread operator to get all the values from questions
+
+    call getNewQuestion
+  */
 
 startGame = () => {
     questionCounter = 0
@@ -70,6 +96,11 @@ startGame = () => {
   * return to end html page when all qustions have been presented
   */
 
+/**
+  * create function getNewQuestion
+  * create loop to keep track of score and  MAX_QUESTIONS
+  */
+
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
@@ -78,12 +109,19 @@ getNewQuestion = () => {
     }
 
 /**
-  * add 100 score
+  * questionCounter++ update questyion by 1
+  * progressBarFull update prgress bar based on  what question usert is on
   */
 
     questionCounter++
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
+
+    /**
+  * keep track of question user is on
+  * determine which wuestion to ask user
+  * dont ask the same question more then one time
+  */
 
     const questionIndex = Math.floor(Math.random() * availableQuestions.length)
     currentQuestion = availableQuestions[questionIndex]
@@ -99,6 +137,11 @@ getNewQuestion = () => {
     acceptingAnswers = true
 }
 
+/**
+  * create choices funtion
+  */
+
+
 choices.forEach(choice => {
     choice.addEventListener('click' , e => {
         if(!acceptingAnswers) return
@@ -107,11 +150,23 @@ choices.forEach(choice => {
         const selectedChoice = e.target
         const selectedAnswer = selectedChoice.dataset['number']
 
+        /**
+         * show grren for right answer or red for wrong answer
+         */
+
         let classToApply = selectedAnswer == currentQuestion.answer ?  'correct' : 'incorrect'
+
+        /**
+  * loop to add 100 score if answer is corect
+  */
 
         if(classToApply === 'correct') {
             incrementScore(SCORE_POINTS)
         }
+
+             /**
+  * give time to show user question is red or green
+  */
 
         selectedChoice.parentElement.classList.add(classToApply)
         setTimeout(() => {

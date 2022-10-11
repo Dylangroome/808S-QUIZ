@@ -15,7 +15,7 @@
     margin-bottom: 0.8rem;
     width: 100%;
     border-radius: 4px;
-    background: rgb(18, 93, 255);
+    background: rgb(254, 177, 255);
     font-size: 3rem;
     min-width: 30rem;
 }
@@ -63,6 +63,7 @@
     width: 20rem;
     height: 3rem;
     background-origin: 0.2rem solid rgb(11, 223, 36);
+    background-color: rgb(230, 29, 29, 1);
     margin-top: 2rem;
     border-radius: 50px;
     overflow: hidden; 

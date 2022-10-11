@@ -101,11 +101,14 @@ h1 {
 }
 
 #highscore-btn {
-    background: linear-gradient(90deg, rgb(255, 247, 9) 0%, rgb(0, 240, 6) 100%);
+    background: linear-gradient(90deg, rgb(255, 9, 148) 0%, rgb(0, 240, 200) 100%);
 }
 
 #highscore-btn:hover {
     box-shadow: 0 0.4rem 1.4rem 0 rgb(255, 255, 0, 0.5);
+}
+#myBtn {
+    background-color: rgba(88, 50, 255, 0.4);
 }
 
 /* The Modal (background) */
@@ -124,16 +127,16 @@ h1 {
   
   /* Modal Content/Box */
   .modal-content {
-    background-color: #fefefe;
+    background-color: #c1a9ffb1;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid rgb(0, 0, 0);
     width: 80%; /* Could be more or less, depending on screen size */
   }
   
   /* The Close Button */
   .close {
-    color: #aaa;
+    color: rgb(133, 39, 39);
     float: right;
     font-size: 28px;
     font-weight: bold;

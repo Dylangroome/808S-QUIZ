@@ -1,3 +1,13 @@
+.main-container {
+    display: flex;
+    padding: 1.4rem;
+}
+
+.sidebar-two {
+    display: flex;
+    padding: 1.4rem;
+}
+
 
 
 .choice-container {

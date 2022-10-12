@@ -21,11 +21,12 @@ Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a tab
 - Screenshot of logo/navigation of mobile deployed site
 - Include a link to deployed project with one line explanation of project
 
+<img width="1115" alt="Screenshot 2022-10-12 at 06 07 02" src="https://user-images.githubusercontent.com/108524172/195255143-5adf3f27-c6a2-4ce0-bd57-8f840e99890e.png">
+
 ## Author
 Dylan Groome
 
 ## Project Overview
-<img width="1115" alt="Screenshot 2022-10-12 at 06 07 02" src="https://user-images.githubusercontent.com/108524172/195255143-5adf3f27-c6a2-4ce0-bd57-8f840e99890e.png">
 
 This website was developed to quiz users on kanye west album 808s and heartbreak. It was created to be fun, intuitive, easy to play. 
 

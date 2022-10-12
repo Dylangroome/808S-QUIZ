@@ -204,22 +204,33 @@ You may want to re-watch the [initial deployment in gitpod video](https://learn.
 
 Write out steps you would take and test them to deploy your code to GitHub Pages, include screenshots if you think they would make the process easier.
 
-## Credits
-
-To avoid plagiarism amd copyright infringement, you should mention any other projects, stackoverflow, videos, blogs, etc that you used to gather imagery or ideas for your code even if you used it as a starting point and modified things. Giving credit to other people's efforts and ideas that saved you time acknowledges the hard work others did. 
+## Credits 
 
 ### Content
 
-Use bullet points to list out sites you copied text from and cross-reference where those show up on your site
+Quiz questions and answers were inspired from the facts page on the album.
+
+- https://hip-hop-music.fandom.com/wiki/808s_%26_Heartbreak
 
 ### Media
 
-Make a list of sites you used images from. If you used several sites try to match up each image to the correct site. This includes attribution for icons if they came from font awesome or other sites, give them credit.
+Images and audios were taken from the following websites.
+
+- https://www.pngkit.com/bigpic/u2q8w7w7o0q8i1w7/
+- https://www.youtube.com/watch?v=LlmK6j1GMxI
+- https://www.youtube.com/watch?v=Dm4uTQjq-mk
 
 ### Acknowledgments
 
-This is the section where you refer to code examples, mentors, blogs, stack overflow answers and videos that helped you accomplish your end project. Even if it's an idea that you updated you should note the site and why it was important to your completed project.
+Help
 
-If you used a CodeInstitute Example project as a starting point. Make note of that here.
+- https://www.w3schools.com/howto/howto_css_modals.asp
 
+YouTube Inspiration
 
+- https://www.youtube.com/watch?v=DtaSNnHky2w
+- https://www.youtube.com/watch?v=f4fB9Xg2JEY
+
+My Code Institute mentor Malia Havlicek.
+
+And finally Code Institute for inspiration regarding project ideas and content for referring back to whenever needed.

@@ -10,9 +10,28 @@ This website was developed to quiz users on kanye west album 808s and heartbreak
 - You can view my deployed website [here] https://dylangroome.github.io/808s-Quiz/
 
 ## Table of Contents
-Generate after readme is complete for UX and below
 
-## UX
+- [UX](#ux)
+  * [Project Goals](#project-goals)
+  * [Design Choices](#design-choices)
+      Colors (#colors)
+      Typography (#typography)
+      Images (#images)
+  * [Features](#features)
+- [Testing](#testing)
+  * [Validation Testing](#validation-testing)
+  * [Cross Browser and Cross Device Testing](#cross-browser-and-cross-device-testing)
+  * [Manual Testing](#manual-testing)
+  * [Defect Tracking](#defect-tracking)
+  * [Defects of Note](#defects-of-note)
+  * [Outstanding Defects](#outstanding-defects)
+- [Lighthouse Audits](#lighthouse-audits)
+- [Deployment](#deployment)
+- [Credits](#credits)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
+
 
 ### Project Goals
 The website was largely designed to be appealing to young teenagers and young adults.

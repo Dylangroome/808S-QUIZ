@@ -22,14 +22,14 @@ Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a tab
 - Include a link to deployed project with one line explanation of project
 
 ## Author
-DEVELOPER_NAME
+Dylan Groome
 
 ## Project Overview
-- Include a picture of site that shows it<img width="1115" alt="Screenshot 2022-10-12 at 06 07 02" src="https://user-images.githubusercontent.com/108524172/195255143-5adf3f27-c6a2-4ce0-bd57-8f840e99890e.png">
- in responsive states and links to deployed code: https://ui.dev/amiresponsive
-- One or two paragraphs providing an overview of your project.
-- Write this as a sales pitch or commercial to entice users to interact with your site or how you want investors to purchase your website.
-- Include a link to your deployed website
+<img width="1115" alt="Screenshot 2022-10-12 at 06 07 02" src="https://user-images.githubusercontent.com/108524172/195255143-5adf3f27-c6a2-4ce0-bd57-8f840e99890e.png">
+
+This website was developed to quiz users on kanye west album 808s and heartbreak. It was created to be fun, intuitive, easy to play. 
+
+- You can view my deployed website [here] https://dylangroome.github.io/808s-Quiz/
 
 ## Table of Contents
 Generate after readme is complete for UX and below
@@ -37,7 +37,11 @@ Generate after readme is complete for UX and below
 ## UX
 
 ### Project Goals
-Use this section to provide insight into your UX process, focusing on who this website is for, calling out demographics, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The website was largely designed to be appealing to young teenagers and young adults.
+
+The website hopes to provide an test to hip-hop and kanye fans to see who knows the most.
+
+
 
 ### Design Choices
 Your site is most likely geared to a certain audience, and your design choices should tie into them. Let the assessors know your thought process.

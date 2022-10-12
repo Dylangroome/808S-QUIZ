@@ -45,23 +45,22 @@ The website hopes to provide an test to hip-hop and kanye fans to see who knows 
 
 
 ### Design Choices
-Your site is most likely geared to a certain audience, and your design choices should tie into them. Let the assessors know your thought process.
 
-You may want to re-watch the videos about the [5 planes of UX development ](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/22905698f3be425d918ebc64c87801b7/9c295bdc5a4048308460e262b14ab7df/) when writing up this section
+The design was based on the minimalist approach of the album cover.
 
 #### Colors
 
-- Discuss your color pallet choices and how it ties into users' emotions or target audience.
-- include a screenshot of your pallet using a tool like coolors.co
+pastel colour for a minimalist aesthetic.
 
 #### Typography
 
-- discuss font size, font types for headers vs buttons vs general text and how it ties into users' emotions or target audience.
-- include screenshots of fonts used and links to the appropriate website ex) https://fonts.google.com/specimen/Raleway
+Font styles and sizes were chosen to match the website's color palette and minimalist approach.
+
 
 #### Images
 
-Explain why you used certain icons and images on your site
+The heart was used to fill the centre space.
+The heart resembles the album cover.
 
 #### Animations and Transitions
 

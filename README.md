@@ -1,26 +1,3 @@
-# OVERVIEW
-
-This template was made as a guide to ensure you cover assessment criteria in your second milestone write up. It is specific to the **PORTFOLIO 2: Javascript Essentials** project. It was based off the [loves maths_readmd.md](https://github.com/Code-Institute-Solutions/readme-love-maths) with a few additions to help elevate you to possible distinction status.
-
-## Helpful tools
-
-Markdown's not all that easy so sometimes you may want to use some tools to make tables. 
-
-- [Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
-- [markdown table generator](https://www.tablesgenerator.com/markdown_tables) - used to help with documentation table formatting
-- [mardown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/) - used to create table of contents (be weary it does have some bugs if you have dashes or trailing spaces in your headers)
-- [readme.so](https://readme.so/) - if you don't want to learn markdown, this tool might help you
-
-# Table of Contents
-Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a table of contents.  This will help assessors to see the structure of your readme. Just test it out ast this tool isn't perfect. It tends to mess up with special characters like dashes.
-
-====================================== The Sections you Fill in are below ==============================
-
-# PROJECT NAME
-*replace the **PROJECT NAME** header with your project's name*
-- Screenshot of logo/navigation of mobile deployed site
-- Include a link to deployed project with one line explanation of project
-
 <img width="1115" alt="Screenshot 2022-10-12 at 06 07 02" src="https://user-images.githubusercontent.com/108524172/195255143-5adf3f27-c6a2-4ce0-bd57-8f840e99890e.png">
 
 ## Author
@@ -65,13 +42,6 @@ Font styles and sizes were chosen to match the website's color palette and minim
 The heart was used to fill the centre space.
 The heart resembles the album cover.
 
-
-### Wireframes
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in a separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser. 
-
-Wireframes can be as simple as a picture of a drawing of how you envisioned laying out the information for you pages in desktop, tablet and mobile views. They are a roadmap and do not have to be 100% accurate of the final product.
-
 ### Features
 
 The home page allows users to visit quiz and high-scores page.
@@ -84,19 +54,6 @@ The end page allows the user to keep score by entry of name and allows user to r
 
 The highscores page shows a leaderboard of highscores.
 
-#### Implemented Features
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-It's easiest to break this section down into the header, footer, and each page/layer of your website. Call out any differences for mobile vs desktop presentations, include a screenshot of the implemented feature.
-
-Don't forget your 404 error page.
-
-#### Future Features
-
-Use this section to discuss plans for additional features to be implemented in the future:
-
-If you end up not developing some features you hoped to implement, you can include those in this section.
 
 
 ## Testing

@@ -55,17 +55,16 @@ pastel colour for a minimalist aesthetic.
 #### Typography
 
 Font styles and sizes were chosen to match the website's color palette and minimalist approach.
+<img width="292" alt="Screenshot 2022-10-12 at 09 40 26" src="https://user-images.githubusercontent.com/108524172/195294583-4cb2057f-644a-4c27-b943-cca0ac9b0413.png">
 
 
 #### Images
 
+<img width="588" alt="Screenshot 2022-10-12 at 09 37 36" src="https://user-images.githubusercontent.com/108524172/195294182-eb6b7f98-bc60-43d5-b5f0-31947f1c5c9e.png">
+
 The heart was used to fill the centre space.
 The heart resembles the album cover.
 
-#### Animations and Transitions
-
-- discuss any special animations or transitions you've included 
-- special hover state effects
 
 ### Wireframes
 
@@ -75,7 +74,15 @@ Wireframes can be as simple as a picture of a drawing of how you envisioned layi
 
 ### Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so and how they tie into  your user stories.
+The home page allows users to visit quiz and high-scores page.
+the home page allows user to turn on and off music while presenting a brief description on the album.
+
+The quiz page asks questions on the topic and keeps track of users score.
+When the quiz ends the user gets brought to the end page.
+
+The end page allows the user to keep score by entry of name and allows user to return home.
+
+The highscores page shows a leaderboard of highscores.
 
 #### Implemented Features
 

@@ -7,7 +7,7 @@ Dylan Groome
 
 This website was developed to quiz users on kanye west album 808s and heartbreak. It was created to be fun, intuitive, easy to play. 
 
-- You can view my deployed website [here] https://dylangroome.github.io/808s-Quiz/
+- You can view my deployed website [here] https://dylangroome.github.io/808S-QUIZ/
 
 ## Table of Contents
 

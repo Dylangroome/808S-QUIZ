@@ -136,8 +136,10 @@ The highscores page shows a leaderboard of highscores.
 
 ## Lighthouse Audits
 
-- Below you will find my Lighthouse Audit.
-![Lighthouse audit]
+- Below you will find my Lighthouse.
+<img width="772" alt="Screenshot 2022-10-14 at 09 50 05" src="https://user-images.githubusercontent.com/108524172/195805143-1507b11f-f322-4a9c-841a-05982eab74b9.png">
+
+
 
 ## Deployment
 

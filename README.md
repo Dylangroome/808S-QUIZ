@@ -112,16 +112,14 @@ The highscores page shows a leaderboard of highscores.
 
 | Feature Tested                          | Steps Taken                                                                                                                                                                                                                         |
 |-----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
-| Hit play now                        | 1. Verify if after click player moves to questions |
+| First message form                 ||
+| Hit play now                       | 1. Verify if after click player moves to questions |
 | high-scores                        | 1. Verify if after click shows highscores   |
 | Points                             | 1. Played several times and check if the points accumulated correctly  |
-| about section                | 1. Check if display the instructions  |
+| about section                	     | 1. Check if display the instructions  |
 | Play/Pause Music Button            | 1. Check if the music play and pause after click  |
 | Play/Pause Audio Button            | 1. Check if the audio play and pause after click  |
-| check question             | 1. Check if the questions worked   |
-
-
+| check question             	     | 1. Check if the questions worked   |
 
 
 

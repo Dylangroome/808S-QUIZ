@@ -110,9 +110,6 @@ The highscores page shows a leaderboard of highscores.
 
 ### Manual Testing
 
-| Feature Tested                          | Steps Taken                                                                                                                                                                                                                         |
-|-----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-                             |
 | Hit play now                        | 1. Verify if after click player moves to questions |
 | high-scores                        | 1. Verify if after click shows highscores   |
 | Points                             | 1. Played several times and check if the points accumulated correctly  |

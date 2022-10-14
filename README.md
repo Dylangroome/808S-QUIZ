@@ -112,7 +112,7 @@ The highscores page shows a leaderboard of highscores.
 
 | Feature Tested                          | Steps Taken                                                                                                                                                                                                                         |
 |-----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| First message form                 | 1. Tried to submit with name input empty<br>2. Verify if return error<br>3. Tried to submit with the chips input<br>4. Verify if return error <br>5. Tried to submit with a value < 50<br>6. Verify if return error<br>7. Tried to submit with valid valuest<br>8. Verify if return error                                |
+                             |
 | Hit play now                        | 1. Verify if after click player moves to questions |
 | high-scores                        | 1. Verify if after click shows highscores   |
 | Points                             | 1. Played several times and check if the points accumulated correctly  |

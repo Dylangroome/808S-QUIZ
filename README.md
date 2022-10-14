@@ -80,12 +80,16 @@ The highscores page shows a leaderboard of highscores.
 ### Validation Testing
 
 - All CSS files on this project were run through a [CSS Validator](https://jigsaw.w3.org/css-validator/) and passed.
+- <img width="1440" alt="Screenshot 2022-10-14 at 09 12 22" src="https://user-images.githubusercontent.com/108524172/195796988-a43a9d67-f39c-4bdd-b57f-1eda41c384b7.png">
+
 
 
 - All HTML files on this project were run through a [HTML Validator](https://validator.w3.org/) and passed.
+<img width="1440" alt="Screenshot 2022-10-14 at 09 16 32" src="https://user-images.githubusercontent.com/108524172/195797795-d5c9c72a-f7d2-4495-a9d3-ddfe9e8a0c3b.png">
 
 
 - All JavaScript files on this project were run through a [JavaScript Validator](https://jshint.com/) and passed.
+<img width="1440" alt="Screenshot 2022-10-14 at 09 24 58" src="https://user-images.githubusercontent.com/108524172/195799597-8e332774-96a7-4060-b4b0-96fbde1ad3b1.png">
 
 
 ### Cross-Browser and Cross-Device Testing

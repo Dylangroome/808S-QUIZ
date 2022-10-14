@@ -107,13 +107,25 @@ The highscores page shows a leaderboard of highscores.
 | Real computer: MacBook Pro    | Firefox     | Big Sur    | XL 1752 x 960 |
 | Real computer: MacBook Air    | Safari      | Big Sur    | XL 1240 x 768 |
 
+
 ### Manual Testing
-    
-You can view my manual testing document [here]
+
+| Feature Tested                          | Steps Taken                                                                                                                                                                                                                         |
+|-----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| First message form                 | 1. Tried to submit with name input empty<br>2. Verify if return error<br>3. Tried to submit with the chips input<br>4. Verify if return error <br>5. Tried to submit with a value < 50<br>6. Verify if return error<br>7. Tried to submit with valid valuest<br>8. Verify if return error                                |
+| Hit play now                        | 1. Verify if after click player moves to questions |
+| high-scores                        | 1. Verify if after click shows highscores   |
+| Points                             | 1. Played several times and check if the points accumulated correctly  |
+| about section                | 1. Check if display the instructions  |
+| Play/Pause Music Button            | 1. Check if the music play and pause after click  |
+| Play/Pause Audio Button            | 1. Check if the audio play and pause after click  |
+| check question             | 1. Check if the questions worked   |
+
+
+
 
 ### Defect Tracking
 
-You can view my defect tracking document [here]
 
 ### Defects of Note
 
@@ -129,13 +141,15 @@ You can view my defect tracking document [here]
 
 ## Deployment
 
-1. Go to the repository created on GitHub.
-2. Click on 'Settings'.
-3. Scroll down and click on 'Pages' on the left-hand side menu.
-4. Select the 'Branch' 'master' and click on 'Save'.
-5. Allow GitHub a few minutes to deploy the website and then refresh the page.
-6. Website deployed.
+### Deploy to GitHub Pages
 
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+	
+* In the GitHub repository, navigate to the Settings tab
+
+* From the source section drop-down menu, select the Master Branch
+
+* Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 ## Credits 
 

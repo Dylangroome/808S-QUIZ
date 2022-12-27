@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>808s quiz</title>
 </head>
+
 <body>
 
     <header>
@@ -22,46 +25,49 @@
                 <div id="home" class="flex-column flex-center">
                     <button id="myBtn">About 808s and Heartbreak</button>
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
 
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>808S and Heartbreak is Kanye west 4th studio album. It takes a minimal somber approach and popularised auto-tune melodic rap wich is the dominant factor in modern hip-pop</p>
-    <!-- music controls -->
-  <div class="container volume-controller">
-    <a class="circle" onClick="musicControl();" id="music-on">
-        <i class="fas fa-volume-mute" aria-label="Turn on background music"></i>
-    </a>
-    <a class="circle hide" onClick="musicControl();" id="music-off">
-        <i class="fas fa-volume-up" aria-label="Turn off background music"></i>
-    </a>
-</div>
-  </div>
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>808S and Heartbreak is Kanye west 4th studio album. It takes a minimal somber approach
+                                and popularised auto-tune melodic rap wich is the dominant factor in modern hip-pop</p>
+                            <!-- music controls -->
+                            <div class="container volume-controller">
+                                <a class="circle" onClick="musicControl();" id="music-on">
+                                    <i class="fas fa-volume-mute" aria-label="Turn on background music"></i>
+                                </a>
+                                <a class="circle hide" onClick="musicControl();" id="music-off">
+                                    <i class="fas fa-volume-up" aria-label="Turn off background music"></i>
+                                </a>
+                            </div>
+                        </div>
 
-  
 
 
-</div>
+
+                    </div>
                     <h1>Are You Ready</h1>
                     <a href="game.html" class="btn">Play</a>
-                    <a href="highscores.html" id="highscore-btn" class="btn">High Scores<i class="fa-light fa-crown"></i></a>
+                    <a href="highscores.html" id="highscore-btn" class="btn">High Scores<i
+                            class="fa-light fa-crown"></i></a>
                 </div>
             </span>
-            
+
         </aside>
-    
-    
+
+
         <main class="content">
             <span class="inner-text">
                 <img class="heart" src="assets/img/heart.png" alt="heart">
-                </span>
+            </span>
         </main>
     </div>
-    
+
     <audio id="bgMusic" src="assets/audio/bg-music.wav"></audio>
-    
+
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>

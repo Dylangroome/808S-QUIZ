@@ -32,38 +32,38 @@ let availableQuestions = []
   */
 
 let questions = [
-    {
-        question: 'When did 808s & Heartbreak release?',
-        choice1: '2004',
-        choice2: '2008',
-        choice3: '1998',
-        choice4: '2012',
-        answer: 2,
-    },
-    {
-        question: '808s & Heartbreak debuted at number ... on the Billboard 200?',
-        choice1: '1',
-        choice2: '2',
-        choice3: '15',
-        choice4: '7',
-        answer: 1,
-    },
-    {
-        question: 'The artwork for 808s & Heartbreak followed what style?',
-        choice1: 'Surrealism',
-        choice2: 'Abstract Expressionism',
-        choice3: 'Minimalism',
-        choice4: 'Neon Art',
-        answer: 3,
-    },
-    {
-        question: 'A feature of the album which influences modern hip-pop was its use of?',
-        choice1: 'Autotune',
-        choice2: 'Aggressive Hi-Hat',
-        choice3: 'Ad-libs',
-        choice4: 'Vocal Sampling',
-        answer: 1,
-    }
+  {
+    question: 'When did 808s & Heartbreak release?',
+    choice1: '2004',
+    choice2: '2008',
+    choice3: '1998',
+    choice4: '2012',
+    answer: 2,
+  },
+  {
+    question: '808s & Heartbreak debuted at number ... on the Billboard 200?',
+    choice1: '1',
+    choice2: '2',
+    choice3: '15',
+    choice4: '7',
+    answer: 1,
+  },
+  {
+    question: 'The artwork for 808s & Heartbreak followed what style?',
+    choice1: 'Surrealism',
+    choice2: 'Abstract Expressionism',
+    choice3: 'Minimalism',
+    choice4: 'Neon Art',
+    answer: 3,
+  },
+  {
+    question: 'A feature of the album which influences modern hip-pop was its use of?',
+    choice1: 'Autotune',
+    choice2: 'Aggressive Hi-Hat',
+    choice3: 'Ad-libs',
+    choice4: 'Vocal Sampling',
+    answer: 1,
+  }
 ]
 
 
@@ -86,10 +86,10 @@ const MAX_QUESTIONS = 4
   */
 
 startGame = () => {
-    questionCounter = 0
-    score = 0
-    availableQuestions = [...questions]
-    getNewQuestion()
+  questionCounter = 0
+  score = 0
+  availableQuestions = [...questions]
+  getNewQuestion()
 }
 
 /**
@@ -102,39 +102,39 @@ startGame = () => {
   */
 
 getNewQuestion = () => {
-    if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
-        localStorage.setItem('mostRecentScore', score)
+  if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
+    localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign('end.html')
-    }
+    return window.location.assign('end.html')
+  }
 
-/**
-  * questionCounter++ update questyion by 1
-  * progressBarFull update prgress bar based on  what question usert is on
-  */
+  /**
+    * questionCounter++ update questyion by 1
+    * progressBarFull update prgress bar based on  what question usert is on
+    */
 
-    questionCounter++
-    progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
-    progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
+  questionCounter++
+  progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
+  progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`
 
-    /**
-  * keep track of question user is on
-  * determine which wuestion to ask user
-  * dont ask the same question more then one time
-  */
+  /**
+* keep track of question user is on
+* determine which wuestion to ask user
+* dont ask the same question more then one time
+*/
 
-    const questionIndex = Math.floor(Math.random() * availableQuestions.length)
-    currentQuestion = availableQuestions[questionIndex]
-    question.innerText = currentQuestion.question
+  const questionIndex = Math.floor(Math.random() * availableQuestions.length)
+  currentQuestion = availableQuestions[questionIndex]
+  question.innerText = currentQuestion.question
 
-    choices.forEach(choice => {
-        const number = choice.dataset['number']
-        choice.innerText = currentQuestion['choice' + number]
-    })
+  choices.forEach(choice => {
+    const number = choice.dataset['number']
+    choice.innerText = currentQuestion['choice' + number]
+  })
 
-    availableQuestions.splice(questionIndex, 1)
+  availableQuestions.splice(questionIndex, 1)
 
-    acceptingAnswers = true
+  acceptingAnswers = true
 }
 
 /**
@@ -143,68 +143,68 @@ getNewQuestion = () => {
 
 
 choices.forEach(choice => {
-    choice.addEventListener('click' , e => {
-        if(!acceptingAnswers) return
+  choice.addEventListener('click', e => {
+    if (!acceptingAnswers) return
 
-        acceptingAnswers = false
-        const selectedChoice = e.target
-        const selectedAnswer = selectedChoice.dataset['number']
+    acceptingAnswers = false
+    const selectedChoice = e.target
+    const selectedAnswer = selectedChoice.dataset['number']
 
-        /**
-         * show grren for right answer or red for wrong answer
-         */
+    /**
+     * show grren for right answer or red for wrong answer
+     */
 
-        let classToApply = selectedAnswer == currentQuestion.answer ?  'correct' : 'incorrect'
+    let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
 
-        /**
-  * loop to add 100 score if answer is corect
-  */
+    /**
+* loop to add 100 score if answer is corect
+*/
 
-        if(classToApply === 'correct') {
-            incrementScore(SCORE_POINTS)
-        }
+    if (classToApply === 'correct') {
+      incrementScore(SCORE_POINTS)
+    }
 
-             /**
-  * give time to show user question is red or green
-  */
+    /**
+* give time to show user question is red or green
+*/
 
-        selectedChoice.parentElement.classList.add(classToApply)
-        setTimeout(() => {
-            selectedChoice.parentElement.classList.remove(classToApply)
-            getNewQuestion()
+    selectedChoice.parentElement.classList.add(classToApply)
+    setTimeout(() => {
+      selectedChoice.parentElement.classList.remove(classToApply)
+      getNewQuestion()
 
-        }, 1000)
-    })
+    }, 1000)
+  })
 })
 
 incrementScore = num => {
-    score +=num
-    scoreText.innerText = score
+  score += num
+  scoreText.innerText = score
 }
 
 /**
  * Music file setup
  */
- let bgmusic = document.getElementById('bgMusic');
- bgmusic.volume = 0.5;
- bgmusic.loop = true;
- let soundOn = false;
- 
- /**
-  * Toggle on and off background music
-  */
- function musicControl() {
-     soundOn = !soundOn;
-     if (soundOn) {
-         bgmusic.play();
-         document.getElementById("music-on").classList.add('hide');
-         document.getElementById("music-off").classList.remove('hide');
-     } else {
-         bgmusic.pause();
-         document.getElementById("music-off").classList.add('hide');
-         document.getElementById("music-on").classList.remove('hide');
-     }
- }
- 
+let bgmusic = document.getElementById('bgMusic');
+bgmusic.volume = 0.5;
+bgmusic.loop = true;
+let soundOn = false;
 
-startGame( )
+/**
+ * Toggle on and off background music
+ */
+function musicControl() {
+  soundOn = !soundOn;
+  if (soundOn) {
+    bgmusic.play();
+    document.getElementById("music-on").classList.add('hide');
+    document.getElementById("music-off").classList.remove('hide');
+  } else {
+    bgmusic.pause();
+    document.getElementById("music-off").classList.add('hide');
+    document.getElementById("music-on").classList.remove('hide');
+  }
+}
+
+
+startGame()

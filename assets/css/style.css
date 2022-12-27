@@ -6,14 +6,14 @@ html {
 
 body {
     min-height: 100vh;
-    
+
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+
     font-family: 'Nova Square', cursive;
 }
 
@@ -31,7 +31,7 @@ header {
     min-width: 300px;
     background-color: rgb(255, 176, 176);
     display: flex;
-    
+
 }
 
 .sidebar-2 {
@@ -39,7 +39,7 @@ header {
     background-color: #cddae0;
 
     display: flex;
-    
+
 }
 
 .content {
@@ -50,7 +50,7 @@ header {
 .content-2 {
     flex-grow: 1;
     display: flex;
-    background-color:  rgb(255, 176, 176);
+    background-color: rgb(255, 176, 176);
 }
 
 .inner-text {
@@ -93,8 +93,7 @@ h1 {
     transform: scale(1.03);
 }
 
-.btn[disabled]:hover 
-{
+.btn[disabled]:hover {
     cursor: not-allowed;
     box-shadow: none;
     transform: none;
@@ -107,6 +106,7 @@ h1 {
 #highscore-btn:hover {
     box-shadow: 0 0.4rem 1.4rem 0 rgb(255, 255, 0, 0.5);
 }
+
 #myBtn {
     background-color: rgba(88, 50, 255, 0.4);
 }
@@ -120,44 +120,54 @@ h1 {
 
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content/Box */
-  .modal-content {
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
     background-color: #c1a9ffb1;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 15% auto;
+    /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid rgb(0, 0, 0);
-    width: 80%; /* Could be more or less, depending on screen size */
-  }
-  
-  /* The Close Button */
-  .close {
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
     color: rgb(133, 39, 39);
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
-  }
+}
 
-  /* Music Controller */
-.circle{
+/* Music Controller */
+.circle {
     height: 36px;
     width: 36px;
     border: 1px solid deeppink;
@@ -167,57 +177,59 @@ h1 {
     text-align: center;
     display: block;
     margin: 12px auto 0;
- }
- .circle i{
+}
+
+.circle i {
     font-size: 25px;
     margin: 4px 2px;
- 
- }
- /* helper class to hide elements with javascript */
- .hide{
-     display: none;
- }
 
- /* end style */
+}
 
- .end-form-container {
+/* helper class to hide elements with javascript */
+.hide {
+    display: none;
+}
+
+/* end style */
+
+.end-form-container {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 30rem;
- }
+}
 
- input {
+input {
     margin-bottom: 1rem;
     width: 20rem;
     padding: 1.5rem;
     font-size: 1.8rem;
     border: none;
     box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
- }
+}
 
- input::placeholder {
+input::placeholder {
     color: #aaa;
- }
+}
 
- #username {
+#username {
     margin-bottom: 3rem;
     width: 100%;
     outline: none;
- }
+}
 
- #end-text {
+#end-text {
     font-size: 2.4rem;
     color: #fff;
     text-align: center;
- }
+}
 
- #saveScoreBtn {
+#saveScoreBtn {
     border: none;
-    
- }
- 
+
+}
+
 
 /* LARGE DEVICES 992px */
 @media only screen and (max-width: 992px) {

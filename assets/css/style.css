@@ -245,4 +245,14 @@ input::placeholder {
     .sidebar {
         height: 150px;
     }
+
+    header {
+        height: 10px;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    h1 {
+        font-size: 1.8rem;
+    }
 }

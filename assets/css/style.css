@@ -57,6 +57,7 @@ header {
     font-weight: 700;
     font-size: 24px;
     margin: auto;
+    width: 100%;
 }
 
 
@@ -116,6 +117,10 @@ h1 {
     width: 100%;
     font-size: large;
     height: 3rem;
+}
+
+img.heart {
+    max-width: 100%;
 }
 
 /* The Modal (background) */

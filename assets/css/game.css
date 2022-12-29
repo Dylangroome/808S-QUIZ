@@ -16,7 +16,7 @@
     width: 100%;
     border-radius: 4px;
     background: rgb(254, 177, 255);
-    font-size: 3rem;
+    font-size: 1.8rem;
     min-width: 30rem;
 }
 
@@ -28,12 +28,12 @@
 }
 
 .choice-prefix {
-    padding: 2rem 2.5rem;
+    padding: 1rem 1.5rem;
     color: white;
 }
 
 .choice-text {
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
 }
 
@@ -48,6 +48,7 @@
 #hud {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .hud-prefix {

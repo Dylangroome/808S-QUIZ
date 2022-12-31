@@ -89,7 +89,18 @@ The highscores page shows a leaderboard of highscores.
 
 
 - All JavaScript files on this project were run through a [JavaScript Validator](https://jshint.com/) and passed.
-<img width="1440" alt="Screenshot 2022-10-14 at 09 24 58" src="https://user-images.githubusercontent.com/108524172/195799597-8e332774-96a7-4060-b4b0-96fbde1ad3b1.png">
+
+script.js
+<img width="1437" alt="Screenshot 2022-12-31 at 23 24 37" src="https://user-images.githubusercontent.com/108524172/210157512-41c2393f-c948-475f-9d08-0b3bb2200bd9.png">
+
+highscores.js
+
+
+game.js
+
+
+end.js
+
 
 
 ### Cross-Browser and Cross-Device Testing

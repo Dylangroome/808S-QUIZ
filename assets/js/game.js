@@ -21,11 +21,11 @@ const progressBarFull = document.querySelector('#progressBarFull');
   * availableQuestions = to empty array
   */
 
-let currentQuestion = {}
-let acceptingAnswers = true
-let score = 0
-let questionCounter = 0
-let availableQuestions = []
+let currentQuestion = {};
+let acceptingAnswers = true;
+let score = 0;
+let questionCounter = 0;
+let availableQuestions = [];
 
 
 /**
@@ -66,7 +66,7 @@ let questions = [
     choice4: 'Vocal Sampling',
     answer: 1,
   }
-]
+];
 
 
 /**
@@ -75,8 +75,8 @@ let questions = [
   */
 
 
-const SCORE_POINTS = 100
-const MAX_QUESTIONS = 4
+const SCORE_POINTS = 100;
+const MAX_QUESTIONS = 4;
 
 /**
   * create function startgame
@@ -88,11 +88,11 @@ const MAX_QUESTIONS = 4
   */
 
 startGame = () => {
-  questionCounter = 0
-  score = 0
-  availableQuestions = [...questions]
-  getNewQuestion()
-}
+  questionCounter = 0;
+  score = 0;
+  availableQuestions = [...questions];
+  getNewQuestion();
+};
 
 /**
   * return to end html page when all qustions have been presented
@@ -105,9 +105,9 @@ startGame = () => {
 
 getNewQuestion = () => {
   if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
-    localStorage.setItem('mostRecentScore', score)
+    localStorage.setItem('mostRecentScore', score);
 
-    return window.location.assign('end.html')
+    return window.location.assign('end.html');
   }
 
   /**
@@ -115,9 +115,9 @@ getNewQuestion = () => {
     * progressBarFull update prgress bar based on  what question usert is on
     */
 
-  questionCounter++
-  progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
-  progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`
+  questionCounter++;
+  progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
+  progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
   /**
 * keep track of question user is on
@@ -125,19 +125,19 @@ getNewQuestion = () => {
 * dont ask the same question more then one time
 */
 
-  const questionIndex = Math.floor(Math.random() * availableQuestions.length)
-  currentQuestion = availableQuestions[questionIndex]
-  question.innerText = currentQuestion.question
+  const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+  currentQuestion = availableQuestions[questionIndex];
+  question.innerText = currentQuestion.question;
 
   choices.forEach(choice => {
-    const number = choice.dataset['number']
-    choice.innerText = currentQuestion['choice' + number]
-  })
+    const number = choice.dataset['number'];
+    choice.innerText = currentQuestion['choice' + number];
+  });
 
-  availableQuestions.splice(questionIndex, 1)
+  availableQuestions.splice(questionIndex, 1);
 
-  acceptingAnswers = true
-}
+  acceptingAnswers = true;
+};
 
 /**
   * create choices funtion
@@ -146,43 +146,43 @@ getNewQuestion = () => {
 
 choices.forEach(choice => {
   choice.addEventListener('click', e => {
-    if (!acceptingAnswers) return
+    if (!acceptingAnswers) return;
 
-    acceptingAnswers = false
-    const selectedChoice = e.target
-    const selectedAnswer = selectedChoice.dataset['number']
+    acceptingAnswers = false;
+    const selectedChoice = e.target;
+    const selectedAnswer = selectedChoice.dataset['number'];
 
     /**
      * show grren for right answer or red for wrong answer
      */
 
-    let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
+    let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
     /**
 * loop to add 100 score if answer is corect
 */
 
     if (classToApply === 'correct') {
-      incrementScore(SCORE_POINTS)
+      incrementScore(SCORE_POINTS);
     }
 
     /**
 * give time to show user question is red or green
 */
 
-    selectedChoice.parentElement.classList.add(classToApply)
+    selectedChoice.parentElement.classList.add(classToApply);
     setTimeout(() => {
-      selectedChoice.parentElement.classList.remove(classToApply)
-      getNewQuestion()
+      selectedChoice.parentElement.classList.remove(classToApply);
+      getNewQuestion();
 
-    }, 1000)
-  })
-})
+    }, 1000);
+  });
+});
 
 incrementScore = num => {
-  score += num
-  scoreText.innerText = score
-}
+  score += num;
+  scoreText.innerText = score;
+};
 
 /**
  * Music file setup
@@ -209,4 +209,4 @@ function musicControl() {
 }
 
 
-startGame()
+startGame();

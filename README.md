@@ -94,12 +94,15 @@ script.js
 <img width="1437" alt="Screenshot 2022-12-31 at 23 24 37" src="https://user-images.githubusercontent.com/108524172/210157512-41c2393f-c948-475f-9d08-0b3bb2200bd9.png">
 
 highscores.js
+<img width="1425" alt="Screenshot 2022-12-31 at 23 29 26" src="https://user-images.githubusercontent.com/108524172/210157552-9bd62f31-16a5-44d0-b242-4089e5c70704.png">
 
 
 game.js
+<img width="1439" alt="Screenshot 2022-12-31 at 23 36 18" src="https://user-images.githubusercontent.com/108524172/210157618-d1c5f89f-dff7-4621-826f-02c9a1444f93.png">
 
 
 end.js
+<img width="1440" alt="Screenshot 2022-12-31 at 23 39 52" src="https://user-images.githubusercontent.com/108524172/210157756-d0c0147e-a86d-4acc-afc5-9bb739025cf2.png">
 
 
 

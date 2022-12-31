@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 /**
   * create const varibles
   * questions use queryselector to target class and id

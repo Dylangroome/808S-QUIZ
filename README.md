@@ -86,9 +86,14 @@ The highscores page shows a leaderboard of highscores.
 
 - Welcome Screen
 
-- Gane: Question tracker
+Introduce the user
+<img width="1212" alt="Screenshot 2023-01-01 at 13 19 35" src="https://user-images.githubusercontent.com/108524172/210171947-e9d36110-1e9f-4f06-8702-1c7f293238fd.png">
+
 
 - Game: Score
+
+Keeps track of score
+
 <img width="590" alt="Screenshot 2023-01-01 at 13 11 57" src="https://user-images.githubusercontent.com/108524172/210171700-d98a839d-b613-4962-9b38-d28f72b636f8.png">
 
 - Game: Question

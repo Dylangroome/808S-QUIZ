@@ -85,7 +85,20 @@ The highscores page shows a leaderboard of highscores.
 
 
 - All HTML files on this project were run through a [HTML Validator](https://validator.w3.org/) and passed.
-<img width="1440" alt="Screenshot 2022-10-14 at 09 16 32" src="https://user-images.githubusercontent.com/108524172/195797795-d5c9c72a-f7d2-4495-a9d3-ddfe9e8a0c3b.png">
+<img width="1183" alt="Screenshot 2023-01-01 at 01 53 49" src="https://user-images.githubusercontent.com/108524172/210159293-dd73d040-f012-49db-a645-964ef883bd0a.png">
+
+each html file was validated 
+<img width="1183" alt="Screenshot 2023-01-01 at 01 53 49" src="https://user-images.githubusercontent.com/108524172/210159301-67922ebb-c956-489e-b117-85603d2179bb.png">
+
+
+<img width="1396" alt="Screenshot 2023-01-01 at 01 52 30" src="https://user-images.githubusercontent.com/108524172/210159302-8def2d6d-863f-4fb0-8ed1-e1f6b90ec637.png">
+
+
+<img width="1201" alt="Screenshot 2023-01-01 at 01 51 55" src="https://user-images.githubusercontent.com/108524172/210159304-72ca85ea-edf8-4774-b330-766275ad3999.png">
+
+<img width="1367" alt="Screenshot 2023-01-01 at 01 50 38" src="https://user-images.githubusercontent.com/108524172/210159306-8ea57632-0db1-49aa-b4f7-aba82676d7bd.png">
+
+
 
 
 - All JavaScript files on this project were run through a [JavaScript Validator](https://jshint.com/) and passed.

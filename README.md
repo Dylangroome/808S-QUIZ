@@ -45,6 +45,9 @@ The website hopes to provide an test to hip-hop and kanye fans to see who knows 
 The design was based on the minimalist approach of the album cover.
 
 #### Colors
+<img width="687" alt="Screenshot 2023-01-01 at 13 06 25" src="https://user-images.githubusercontent.com/108524172/210171546-c48b5c27-383c-4313-b79e-4b1f5777ddbc.png">
+
+
 
 pastel colour to follow the minimalist aesthetic of the album.
 
@@ -58,6 +61,8 @@ Font styles and sizes were chosen to match the website's color palette and minim
 <img width="292" alt="Screenshot 2022-10-12 at 09 40 26" src="https://user-images.githubusercontent.com/108524172/195294583-4cb2057f-644a-4c27-b943-cca0ac9b0413.png">
 
 a simple font was used to follow the theme of 808s and heartbreak.
+
+Nova Square was used as it’s a bit bland like your life might feel when your down due a heartbreak. 
 
 
 #### Images
@@ -78,6 +83,21 @@ When the quiz ends the user gets brought to the end page.
 The end page allows the user to keep score by entry of name and allows user to return home.
 
 The highscores page shows a leaderboard of highscores.
+
+- Welcome Screen
+
+- Gane: Question tracker
+
+- Game: Score
+
+- Game: Question
+
+- Game: Answers
+
+- End Game: Save not active until name filled out
+ 
+- High Scores: 
+
 
 
 

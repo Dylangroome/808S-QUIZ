@@ -89,8 +89,11 @@ The highscores page shows a leaderboard of highscores.
 - Gane: Question tracker
 
 - Game: Score
+<img width="590" alt="Screenshot 2023-01-01 at 13 11 57" src="https://user-images.githubusercontent.com/108524172/210171700-d98a839d-b613-4962-9b38-d28f72b636f8.png">
 
 - Game: Question
+<img width="92" alt="Screenshot 2023-01-01 at 13 06 07" src="https://user-images.githubusercontent.com/108524172/210171716-26aee419-3ec4-4ffd-9b04-d5a04e32e20b.png">
+
 
 - Game: Answers
 

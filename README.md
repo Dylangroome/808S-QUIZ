@@ -201,7 +201,16 @@ end.js
 ## Lighthouse Audits
 
 - Below you will find my Lighthouse.
-<img width="772" alt="Screenshot 2022-10-14 at 09 50 05" src="https://user-images.githubusercontent.com/108524172/195805143-1507b11f-f322-4a9c-841a-05982eab74b9.png">
+
+<img width="653" alt="Screenshot 2023-01-01 at 13 22 13" src="https://user-images.githubusercontent.com/108524172/210172074-6bc704ae-627b-4518-ab09-c7cd56771140.png">
+
+
+VERSION CONTROL:
+At first I really rushed to get this project done and didn’t perform best practices when commit files. I’ve tried to improve my process by making more detailed commit message more often with fewer changes per commit.
+
+FUTURE FEATURES:
+More questions.
+404 and the favicon.
 
 
 

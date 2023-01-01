@@ -46,12 +46,18 @@ The design was based on the minimalist approach of the album cover.
 
 #### Colors
 
-pastel colour for a minimalist aesthetic.
+pastel colour to follow the minimalist aesthetic of the album.
+
+A somber theme of the site is following 808’s and heartbreakers depressive mood so pinks & reds with gray and blues to be  bit depressing were puprosfully chosen.
+
+Bright mixes of blue and red are used to distinguish where a user should click.
 
 #### Typography
 
 Font styles and sizes were chosen to match the website's color palette and minimalist approach.
 <img width="292" alt="Screenshot 2022-10-12 at 09 40 26" src="https://user-images.githubusercontent.com/108524172/195294583-4cb2057f-644a-4c27-b943-cca0ac9b0413.png">
+
+a simple font was used to follow the theme of 808s and heartbreak.
 
 
 #### Images

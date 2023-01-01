@@ -96,10 +96,13 @@ The highscores page shows a leaderboard of highscores.
 
 
 - Game: Answers
+<img width="1406" alt="Screenshot 2023-01-01 at 13 14 26" src="https://user-images.githubusercontent.com/108524172/210171842-4722fd43-438f-44f0-95fd-ceb7f02ed9db.png">
 
 - End Game: Save not active until name filled out
- 
+ <img width="413" alt="Screenshot 2023-01-01 at 13 15 09" src="https://user-images.githubusercontent.com/108524172/210171848-72e0fa30-4774-4c67-a764-5354f6ef491c.png">
+
 - High Scores: 
+<img width="772" alt="Screenshot 2023-01-01 at 13 15 45" src="https://user-images.githubusercontent.com/108524172/210171853-6fd9d2c4-0410-4f39-a726-72821fc28d40.png">
 
 
 

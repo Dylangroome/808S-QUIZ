@@ -31,6 +31,7 @@ header {
     min-width: 300px;
     background-color: rgb(251, 143, 143);
     display: flex;
+    border-top-right-radius: 10%;
 
 }
 
@@ -51,6 +52,7 @@ header {
     flex-grow: 1;
     display: flex;
     background-color: rgb(251, 143, 143);
+    border-radius: 10%;
 }
 
 .inner-text {
@@ -156,6 +158,7 @@ img.heart {
     /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid rgb(0, 0, 0);
+    border-radius: 10%;
     width: 80%;
     /* Could be more or less, depending on screen size */
 }
